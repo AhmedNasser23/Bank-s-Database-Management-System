@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using System.Data.SqlClient;
 using System.Windows.Forms;
 
@@ -20,42 +20,30 @@ namespace Bank_System.Deleting_Forms
                 {
                     textBox.Clear();
                 }
-                if (c.HasChildren)
-                {
-                    ClearFormFields(c);
-                }
             }
         }
-
         private void deleteButton_Click(object sender, EventArgs e)
         {
             try
             {
-                using (SqlConnection connection = new SqlConnection(@"Data Source=A7MED;Initial Catalog=BankSystem;Integrated Security=True;"))
+                using (SqlConnection connection = new SqlConnection(@"Data Source=A7MED\MICORSOFSQLSERVE;Initial Catalog=BankSystem;Integrated Security=True;"))
                 {
                     connection.Open();
-                    using (SqlTransaction transaction = connection.BeginTransaction())
+                    try
                     {
-                        try
+                        using (SqlCommand deleteCustomerCmd = new SqlCommand("DELETE FROM Customer WHERE accountNo = '" + int.Parse(accountNumber.Text) + "' ", connection))
                         {
-                            using (SqlCommand deleteCustomerCmd = new SqlCommand("DELETE FROM Customer WHERE accountNo = @accountNo", connection, transaction))
-                            {
-                                deleteCustomerCmd.Parameters.AddWithValue("@accountNo", int.Parse(accountNumber.Text));
-                                deleteCustomerCmd.ExecuteNonQuery();
-                            }
-                            using (SqlCommand deleteAccountCmd = new SqlCommand("DELETE FROM Account WHERE accountNumber = @accountNumber", connection, transaction))
-                            {
-                                deleteAccountCmd.Parameters.AddWithValue("@accountNumber", int.Parse(accountNumber.Text));
-                                deleteAccountCmd.ExecuteNonQuery();
-                            }
-                            transaction.Commit();
-                            MessageBox.Show("Record Deleted From Account Table.");
+                            deleteCustomerCmd.ExecuteNonQuery();
                         }
-                        catch (Exception ex)
+                        using (SqlCommand deleteAccountCmd = new SqlCommand("DELETE FROM Account WHERE accountNumber = '" + int.Parse(accountNumber.Text) + "' ", connection))
                         {
-                            transaction.Rollback();
-                            MessageBox.Show(ex.Message);
+                            deleteAccountCmd.ExecuteNonQuery();
                         }
+                        MessageBox.Show("Record Deleted From Account Table.");
+                    }
+                    catch (Exception ex)
+                    {
+                        MessageBox.Show(ex.Message);
                     }
                 }
             }
