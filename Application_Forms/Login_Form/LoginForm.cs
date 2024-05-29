@@ -11,10 +11,9 @@ namespace Bank_System
         {
             InitializeComponent();
             password.PasswordChar = '*';
-            clearButton.Click += (sender, e) => ClearFormFields(this);
         }
 
-        private void ClearFormFields(Control control)
+        private void clearButton_Click(object sender, EventArgs e)
         {
             this.adminID.Clear();
             this.password.Clear();
