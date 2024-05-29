@@ -1,4 +1,4 @@
-﻿namespace Bank_System.Deleting_Forms
+namespace Bank_System.Deleting_Forms
 {
     partial class Delete_Account
     {
