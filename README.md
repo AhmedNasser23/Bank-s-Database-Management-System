@@ -46,10 +46,3 @@ Generating a Report:
  - Navigate to the "Reports" section.
  - Select the type of report and click "Generate".
  ![Screenshot 2024-11-23 161527](https://github.com/user-attachments/assets/9039f9c1-412a-49d5-9cfb-c95837bac515)
-
-Updating a Record:
- - Navigate to the "Update Record" section.
- - Enter the ID of the record you wish to update.
- - Modify the details and click "Update".
- ![Screenshot 2024-11-23 161440](https://github.com/user-attachments/assets/f4ed6327-e47f-4b71-8474-397dfdc8aad8)
-
