@@ -51,5 +51,4 @@ Updating a Record:
 - Navigate to the "Update Record" section.
 - Enter the new data
 
-
 ![Screenshot 2024-11-23 161440](https://github.com/user-attachments/assets/782c1b7f-aff0-46be-abc6-d6120178fd9e)
