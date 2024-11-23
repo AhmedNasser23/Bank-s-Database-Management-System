@@ -36,9 +36,5 @@ Generating a Report:
  - Navigate to the "Reports" section.
  - Select the type of report and click "Generate".
 
-- Contact
-Ahmed Nasser Ahmed Mohamed Hemdan
-Email: ahmed.nasser4588@gmail.com
-LinkedIn: Ahmed Nasser
-GitHub: AhmedNasser23
+![Main_Form](https://github.com/user-attachments/assets/1a7b46fb-1db0-47bf-b6ef-f6925269b700)
 
