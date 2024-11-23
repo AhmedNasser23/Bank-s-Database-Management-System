@@ -50,7 +50,6 @@ Generating a Report:
 Updating a Record:
 - Navigate to the "Update Record" section.
 - Enter the new data
-![Screenshot 2024-11-23 161440](https://github.com/user-attachments/assets/381e873b-f26e-4a2a-a560-a03803670a35)
 
 
-
+![Screenshot 2024-11-23 161440](https://github.com/user-attachments/assets/782c1b7f-aff0-46be-abc6-d6120178fd9e)
