@@ -46,7 +46,7 @@ Updating a Record:
  - Navigate to the "Update Record" section.
  - Enter the ID of the record you wish to update.
  - Modify the details and click "Update".
-![Screenshot 2024-11-23 161440](https://github.com/user-attachments/assets/ab9a20d0-fb4d-4bc9-83bc-6d71cb22557e)
+![Screenshot 2024-11-23 161440](https://github.com/user-attachments/assets/f4ed6327-e47f-4b71-8474-397dfdc8aad8)
 
 Generating a Report:
  - Navigate to the "Reports" section.
