@@ -19,7 +19,7 @@ SQL
 Windows Forms
 
 - Usage:
-Login to DBMS:
+- Login to DBMS:
  - Ask for admin id and password
  ![Screenshot 2024-11-23 161157](https://github.com/user-attachments/assets/74024441-7c7a-4a26-b3f7-b79f597ea5cb)
 
