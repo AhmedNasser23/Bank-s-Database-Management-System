@@ -19,10 +19,10 @@ A Windows Forms application designed to manage bank data efficiently. This syste
 ---
 
 ## Features  
-- **Data Insertion**: Add new bank records to the database.  
-- **Data Deletion**: Remove existing records from the database.  
-- **Data Updating**: Update existing records with new information.  
-- **Reporting**: Generate detailed reports based on bank data.  
+- **Data Insertion**: Add new [bank-branch-customerLoan] records to the database.  
+- **Data Deletion**: Remove existing [bank-branch-customer-Loan] records from the database.  
+- **Data Updating**: Update existing [bank-branch-customerLoan] records with new information.  
+- **Displaying**: Display existing [bank-branch-customerLoan] from the database.
 
 ---
 
@@ -56,11 +56,6 @@ The home screen displays various options for managing bank data.
 1. Navigate to the **Delete Record** section.  
 2. Enter the ID of the record to delete and click **Delete**.  
 ![Deleting a Record Screenshot](https://github.com/user-attachments/assets/9d8b6144-4d1a-49ea-a1df-fe72a1aba46d)  
-
-### Generating a Report  
-1. Go to the **Reports** section.  
-2. Select the type of report you want and click **Generate**.  
-![Generating a Report Screenshot](https://github.com/user-attachments/assets/9039f9c1-412a-49d5-9cfb-c95837bac515)  
 
 ### Updating a Record  
 1. Navigate to the **Update Record** section.  
