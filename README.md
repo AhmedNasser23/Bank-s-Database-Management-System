@@ -13,8 +13,7 @@ A Windows Forms application designed to manage bank data efficiently. This syste
   - [Adding a Record](#adding-a-record)  
   - [Deleting a Record](#deleting-a-record)  
   - [Generating a Report](#generating-a-report)  
-  - [Updating a Record](#updating-a-record)  
-- [Contact](#contact)  
+  - [Updating a Record](#updating-a-record) 
 
 ---
 
